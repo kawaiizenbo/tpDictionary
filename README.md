@@ -1,6 +1,13 @@
 # tpDictionary  
-Toki Pona Dictionary for Windows Mobile 6/6.1/6.5  
+Toki Pona Dictionary for Windows Mobile  
+Compatible with Windows Mobile 5/6.0/6.1/6.5
 Made with Visual Studio 2008 and .NET Compact Framework 2.0
+
+## Use instrtuctions
+1. Install [.NET Compact Framework 2.0](https://archive.org/details/netcompact2.0) if on Windows Mobile 5  
+1. Copy executable to device or SD/CF card  
+1. Open application from file explorer  
+1. Application may take a while to start  
 
 ## Compilation Instructions  
 ### Required software (not needed for normal use, just download from releases)  

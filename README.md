@@ -3,7 +3,7 @@ Toki Pona Dictionary for Windows Mobile
 Compatible with Windows Mobile 5/6.0/6.1/6.5
 Made with Visual Studio 2008 and .NET Compact Framework 2.0
 
-## Use instrtuctions
+## Use instructions
 1. Install [.NET Compact Framework 2.0](https://archive.org/details/netcompact2.0) if on Windows Mobile 5  
 1. Copy executable to device or SD/CF card  
 1. Open application from file explorer  

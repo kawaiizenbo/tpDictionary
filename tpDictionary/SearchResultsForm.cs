@@ -26,6 +26,11 @@ namespace tpDictionary
 
         private void definitionButton_Click(object sender, EventArgs e)
         {
+            defineWord();
+        }
+
+        private void defineWord()
+        {
             if (wordsListView.SelectedIndices.Count != 0)
             {
                 DefinitionForm df = new DefinitionForm();
@@ -65,6 +70,11 @@ namespace tpDictionary
                         (a.type2.IndexOf(SearchQuery, StringComparison.Ordinal) >= 0);
             }
             return false;
+        }
+
+        private void wordsListView_ItemActivate(object sender, EventArgs e)
+        {
+            defineWord();
         }
     }
 }

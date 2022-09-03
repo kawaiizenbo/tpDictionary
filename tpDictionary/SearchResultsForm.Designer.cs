@@ -30,9 +30,9 @@
         private void InitializeComponent()
         {
             this.mainMenu1 = new System.Windows.Forms.MainMenu();
-            this.wordsListView = new System.Windows.Forms.ListView();
             this.backButton = new System.Windows.Forms.MenuItem();
             this.definitionButton = new System.Windows.Forms.MenuItem();
+            this.wordsListView = new System.Windows.Forms.ListView();
             this.sitelenPonaList = new System.Windows.Forms.ImageList();
             this.SuspendLayout();
             // 
@@ -40,14 +40,6 @@
             // 
             this.mainMenu1.MenuItems.Add(this.backButton);
             this.mainMenu1.MenuItems.Add(this.definitionButton);
-            // 
-            // wordsListView
-            // 
-            this.wordsListView.LargeImageList = this.sitelenPonaList;
-            this.wordsListView.Location = new System.Drawing.Point(0, 0);
-            this.wordsListView.Name = "wordsListView";
-            this.wordsListView.Size = new System.Drawing.Size(320, 186);
-            this.wordsListView.TabIndex = 0;
             // 
             // backButton
             // 
@@ -58,6 +50,18 @@
             // 
             this.definitionButton.Text = "Definition";
             this.definitionButton.Click += new System.EventHandler(this.definitionButton_Click);
+            // 
+            // wordsListView
+            // 
+            this.wordsListView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.wordsListView.LargeImageList = this.sitelenPonaList;
+            this.wordsListView.Location = new System.Drawing.Point(0, 0);
+            this.wordsListView.Name = "wordsListView";
+            this.wordsListView.Size = new System.Drawing.Size(320, 186);
+            this.wordsListView.TabIndex = 0;
+            this.wordsListView.ItemActivate += new System.EventHandler(this.wordsListView_ItemActivate);
             // 
             // sitelenPonaList
             // 

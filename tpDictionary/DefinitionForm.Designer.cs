@@ -62,7 +62,7 @@
             this.wordLabel.Font = new System.Drawing.Font("Segoe Condensed", 14F, System.Drawing.FontStyle.Bold);
             this.wordLabel.Location = new System.Drawing.Point(3, 0);
             this.wordLabel.Name = "wordLabel";
-            this.wordLabel.Size = new System.Drawing.Size(276, 30);
+            this.wordLabel.Size = new System.Drawing.Size(260, 30);
             this.wordLabel.Text = "word";
             // 
             // typeLabel
@@ -72,7 +72,7 @@
             this.typeLabel.Font = new System.Drawing.Font("Segoe Condensed", 8F, System.Drawing.FontStyle.Regular);
             this.typeLabel.Location = new System.Drawing.Point(3, 30);
             this.typeLabel.Name = "typeLabel";
-            this.typeLabel.Size = new System.Drawing.Size(276, 20);
+            this.typeLabel.Size = new System.Drawing.Size(260, 20);
             this.typeLabel.Text = "type";
             // 
             // definitionLabel
@@ -108,9 +108,10 @@
             // spChara
             // 
             this.spChara.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.spChara.Location = new System.Drawing.Point(285, 3);
+            this.spChara.Location = new System.Drawing.Point(269, 3);
             this.spChara.Name = "spChara";
-            this.spChara.Size = new System.Drawing.Size(32, 32);
+            this.spChara.Size = new System.Drawing.Size(48, 48);
+            this.spChara.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             // 
             // DefinitionForm
             // 

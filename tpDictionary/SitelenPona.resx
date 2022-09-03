@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\a.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="akesi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\akesi.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\ala.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alasa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\alasa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\ale.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ali" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\ali.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anpa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\anpa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ante" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\ante.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\anu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\awen.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\e.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="en" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\en.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="epiku" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\epiku.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="esun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\esun.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ijo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\ijo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ike" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\ike.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ilo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\ilo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="insa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\insa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jaki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\jaki.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\jan.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jasima" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\jasima.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jelo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\jelo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\jo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\kala.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kalama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\kalama.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\kama.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kasi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\kasi.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\ken.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kepeken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\kepeken.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kijetesantakalu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\kijetesantakalu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kili" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\kili.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\kin.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kipisi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\kipisi.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kiwen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\kiwen.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ko" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\ko.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kokosila" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\kokosila.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\kon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ku" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\ku.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kule" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\kule.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kulupu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\kulupu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\kute.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="la" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\la.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lanpan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\lanpan.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lape" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\lape.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\laso.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lawa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\lawa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leko" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\leko.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="len" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\len.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\lete.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="li" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\li.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lili" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\lili.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="linja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\linja.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lipu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\lipu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loje" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\loje.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\lon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="luka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\luka.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lukin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\lukin.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lupa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\lupa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\ma.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\mama.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mani" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\mani.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="meli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\meli.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="meso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\meso.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\mi.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mije" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\mije.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="misikeke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\misikeke.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="moku" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\moku.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="moli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\moli.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monsi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\monsi.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monsuta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\monsuta.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\mu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\mun.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="musi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\musi.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\mute.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\n.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="namako" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\namako.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nanpa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\nanpa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nasa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\nasa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nasin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\nasin.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nena" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\nena.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\ni.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nimi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\nimi.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\noka.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\o.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oko" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\oko.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="olin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\olin.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ona" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\ona.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\open.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pakala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\pakala.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pali" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\pali.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="palisa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\palisa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\pan.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\pana.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\pi.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pilin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\pilin.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pimeja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\pimeja.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\pini.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pipi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\pipi.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="poka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\poka.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="poki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\poki.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pona" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\pona.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\pu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\sama.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\seli.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="selo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\selo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\seme.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sewi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\sewi.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sijelo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\sijelo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sike" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\sike.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\sin.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\sina.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sinpin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\sinpin.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sitelen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\sitelen.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soko" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\soko.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sona" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\sona.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soweli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\soweli.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="suli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\suli.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="suno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\suno.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="supa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\supa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="suwi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\suwi.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\tan.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="taso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\taso.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tawa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\tawa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="telo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\telo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tenpo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\tenpo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\toki.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tomo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\tomo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tonsi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\tonsi.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\tu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unpa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\unpa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\uta.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="utala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\utala.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="walo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\walo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\wan.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="waso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\waso.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wawa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\wawa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\weka.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sitelen-pona\wile.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

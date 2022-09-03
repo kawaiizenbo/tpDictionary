@@ -1,0 +1,423 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BFDB9E8B-DB88-46F6-8512-C6F12D57E6C5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>tpDictionary</RootNamespace>
+    <AssemblyName>tpDictionary</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>Smartphone</PlatformFamilyName>
+    <PlatformID>f27da329-3269-4191-98e0-c87d3d7f1db9</PlatformID>
+    <OSVersion>5.2</OSVersion>
+    <DeployDirSuffix>tpDictionary</DeployDirSuffix>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <NativePlatformName>Windows Mobile 6 Standard SDK</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DefinitionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DefinitionForm.Designer.cs">
+      <DependentUpon>DefinitionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DefinitionForm.resx">
+      <DependentUpon>DefinitionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchForm.resx">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchResultsForm.resx">
+      <DependentUpon>SearchResultsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SitelenPona.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SitelenPona.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VoiceSamples.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>VoiceSamples.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchForm.Designer.cs">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchResultsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchResultsForm.Designer.cs">
+      <DependentUpon>SearchResultsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SitelenPona.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SitelenPona.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Sound.cs" />
+    <Compile Include="VoiceSamples.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VoiceSamples.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WordsList.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\sitelen-pona\a.png" />
+    <Content Include="Resources\sitelen-pona\akesi.png" />
+    <Content Include="Resources\sitelen-pona\ala.png" />
+    <Content Include="Resources\sitelen-pona\alasa.png" />
+    <Content Include="Resources\sitelen-pona\ale.png" />
+    <Content Include="Resources\sitelen-pona\ali.png" />
+    <Content Include="Resources\sitelen-pona\anpa.png" />
+    <Content Include="Resources\sitelen-pona\ante.png" />
+    <Content Include="Resources\sitelen-pona\anu.png" />
+    <Content Include="Resources\sitelen-pona\awen.png" />
+    <Content Include="Resources\sitelen-pona\e.png" />
+    <Content Include="Resources\sitelen-pona\en.png" />
+    <Content Include="Resources\sitelen-pona\epiku.png" />
+    <Content Include="Resources\sitelen-pona\esun.png" />
+    <Content Include="Resources\sitelen-pona\ijo.png" />
+    <Content Include="Resources\sitelen-pona\ike.png" />
+    <Content Include="Resources\sitelen-pona\ilo.png" />
+    <Content Include="Resources\sitelen-pona\insa.png" />
+    <Content Include="Resources\sitelen-pona\jaki.png" />
+    <Content Include="Resources\sitelen-pona\jan.png" />
+    <Content Include="Resources\sitelen-pona\jasima.png" />
+    <Content Include="Resources\sitelen-pona\jelo.png" />
+    <Content Include="Resources\sitelen-pona\jo.png" />
+    <Content Include="Resources\sitelen-pona\kala.png" />
+    <Content Include="Resources\sitelen-pona\kalama.png" />
+    <Content Include="Resources\sitelen-pona\kama.png" />
+    <Content Include="Resources\sitelen-pona\kasi.png" />
+    <Content Include="Resources\sitelen-pona\ken.png" />
+    <Content Include="Resources\sitelen-pona\kepeken.png" />
+    <Content Include="Resources\sitelen-pona\kijetesantakalu.png" />
+    <Content Include="Resources\sitelen-pona\kili.png" />
+    <Content Include="Resources\sitelen-pona\kin.png" />
+    <Content Include="Resources\sitelen-pona\kipisi.png" />
+    <Content Include="Resources\sitelen-pona\kiwen.png" />
+    <Content Include="Resources\sitelen-pona\ko.png" />
+    <Content Include="Resources\sitelen-pona\kokosila.png" />
+    <Content Include="Resources\sitelen-pona\kon.png" />
+    <Content Include="Resources\sitelen-pona\ku.png" />
+    <Content Include="Resources\sitelen-pona\kule.png" />
+    <Content Include="Resources\sitelen-pona\kulupu.png" />
+    <Content Include="Resources\sitelen-pona\kute.png" />
+    <Content Include="Resources\sitelen-pona\la.png" />
+    <Content Include="Resources\sitelen-pona\lanpan.png" />
+    <Content Include="Resources\sitelen-pona\lape.png" />
+    <Content Include="Resources\sitelen-pona\laso.png" />
+    <Content Include="Resources\sitelen-pona\lawa.png" />
+    <Content Include="Resources\sitelen-pona\leko.png" />
+    <Content Include="Resources\sitelen-pona\len.png" />
+    <Content Include="Resources\sitelen-pona\lete.png" />
+    <Content Include="Resources\sitelen-pona\li.png" />
+    <Content Include="Resources\sitelen-pona\lili.png" />
+    <Content Include="Resources\sitelen-pona\linja.png" />
+    <Content Include="Resources\sitelen-pona\lipu.png" />
+    <Content Include="Resources\sitelen-pona\loje.png" />
+    <Content Include="Resources\sitelen-pona\lon.png" />
+    <Content Include="Resources\sitelen-pona\luka.png" />
+    <Content Include="Resources\sitelen-pona\lukin.png" />
+    <Content Include="Resources\sitelen-pona\lupa.png" />
+    <Content Include="Resources\sitelen-pona\ma.png" />
+    <Content Include="Resources\sitelen-pona\mama.png" />
+    <Content Include="Resources\sitelen-pona\mani.png" />
+    <Content Include="Resources\sitelen-pona\meli.png" />
+    <Content Include="Resources\sitelen-pona\meso.png" />
+    <Content Include="Resources\sitelen-pona\mi.png" />
+    <Content Include="Resources\sitelen-pona\mije.png" />
+    <Content Include="Resources\sitelen-pona\misikeke.png" />
+    <Content Include="Resources\sitelen-pona\moku.png" />
+    <Content Include="Resources\sitelen-pona\moli.png" />
+    <Content Include="Resources\sitelen-pona\monsi.png" />
+    <Content Include="Resources\sitelen-pona\monsuta.png" />
+    <Content Include="Resources\sitelen-pona\mu.png" />
+    <Content Include="Resources\sitelen-pona\mun.png" />
+    <Content Include="Resources\sitelen-pona\musi.png" />
+    <Content Include="Resources\sitelen-pona\mute.png" />
+    <Content Include="Resources\sitelen-pona\n.png" />
+    <Content Include="Resources\sitelen-pona\namako.png" />
+    <Content Include="Resources\sitelen-pona\nanpa.png" />
+    <Content Include="Resources\sitelen-pona\nasa.png" />
+    <Content Include="Resources\sitelen-pona\nasin.png" />
+    <Content Include="Resources\sitelen-pona\nena.png" />
+    <Content Include="Resources\sitelen-pona\ni.png" />
+    <Content Include="Resources\sitelen-pona\nimi.png" />
+    <Content Include="Resources\sitelen-pona\noka.png" />
+    <Content Include="Resources\sitelen-pona\o.png" />
+    <Content Include="Resources\sitelen-pona\oko.png" />
+    <Content Include="Resources\sitelen-pona\olin.png" />
+    <Content Include="Resources\sitelen-pona\ona.png" />
+    <Content Include="Resources\sitelen-pona\open.png" />
+    <Content Include="Resources\sitelen-pona\pakala.png" />
+    <Content Include="Resources\sitelen-pona\pali.png" />
+    <Content Include="Resources\sitelen-pona\palisa.png" />
+    <Content Include="Resources\sitelen-pona\pan.png" />
+    <Content Include="Resources\sitelen-pona\pana.png" />
+    <Content Include="Resources\sitelen-pona\pi.png" />
+    <Content Include="Resources\sitelen-pona\pilin.png" />
+    <Content Include="Resources\sitelen-pona\pimeja.png" />
+    <Content Include="Resources\sitelen-pona\pini.png" />
+    <Content Include="Resources\sitelen-pona\pipi.png" />
+    <Content Include="Resources\sitelen-pona\poka.png" />
+    <Content Include="Resources\sitelen-pona\poki.png" />
+    <Content Include="Resources\sitelen-pona\pona.png" />
+    <Content Include="Resources\sitelen-pona\pu.png" />
+    <Content Include="Resources\sitelen-pona\sama.png" />
+    <Content Include="Resources\sitelen-pona\seli.png" />
+    <Content Include="Resources\sitelen-pona\selo.png" />
+    <Content Include="Resources\sitelen-pona\seme.png" />
+    <Content Include="Resources\sitelen-pona\sewi.png" />
+    <Content Include="Resources\sitelen-pona\sijelo.png" />
+    <Content Include="Resources\sitelen-pona\sike.png" />
+    <Content Include="Resources\sitelen-pona\sin.png" />
+    <Content Include="Resources\sitelen-pona\sina.png" />
+    <Content Include="Resources\sitelen-pona\sinpin.png" />
+    <Content Include="Resources\sitelen-pona\sitelen.png" />
+    <Content Include="Resources\sitelen-pona\soko.png" />
+    <Content Include="Resources\sitelen-pona\sona.png" />
+    <Content Include="Resources\sitelen-pona\soweli.png" />
+    <Content Include="Resources\sitelen-pona\suli.png" />
+    <Content Include="Resources\sitelen-pona\suno.png" />
+    <Content Include="Resources\sitelen-pona\supa.png" />
+    <Content Include="Resources\sitelen-pona\suwi.png" />
+    <Content Include="Resources\sitelen-pona\tan.png" />
+    <Content Include="Resources\sitelen-pona\taso.png" />
+    <Content Include="Resources\sitelen-pona\tawa.png" />
+    <Content Include="Resources\sitelen-pona\telo.png" />
+    <Content Include="Resources\sitelen-pona\tenpo.png" />
+    <Content Include="Resources\sitelen-pona\toki.png" />
+    <Content Include="Resources\sitelen-pona\tomo.png" />
+    <Content Include="Resources\sitelen-pona\tonsi.png" />
+    <Content Include="Resources\sitelen-pona\tu.png" />
+    <Content Include="Resources\sitelen-pona\unpa.png" />
+    <Content Include="Resources\sitelen-pona\uta.png" />
+    <Content Include="Resources\sitelen-pona\utala.png" />
+    <Content Include="Resources\sitelen-pona\walo.png" />
+    <Content Include="Resources\sitelen-pona\wan.png" />
+    <Content Include="Resources\sitelen-pona\waso.png" />
+    <Content Include="Resources\sitelen-pona\wawa.png" />
+    <Content Include="Resources\sitelen-pona\weka.png" />
+    <Content Include="Resources\sitelen-pona\wile.png" />
+    <Content Include="Resources\voice\a.wav" />
+    <Content Include="Resources\voice\akesi.wav" />
+    <Content Include="Resources\voice\ala.wav" />
+    <Content Include="Resources\voice\alasa.wav" />
+    <Content Include="Resources\voice\ale.wav" />
+    <Content Include="Resources\voice\ali.wav" />
+    <Content Include="Resources\voice\anpa.wav" />
+    <Content Include="Resources\voice\ante.wav" />
+    <Content Include="Resources\voice\anu.wav" />
+    <Content Include="Resources\voice\awen.wav" />
+    <Content Include="Resources\voice\e.wav" />
+    <Content Include="Resources\voice\en.wav" />
+    <Content Include="Resources\voice\epiku.wav" />
+    <Content Include="Resources\voice\esun.wav" />
+    <Content Include="Resources\voice\ijo.wav" />
+    <Content Include="Resources\voice\ike.wav" />
+    <Content Include="Resources\voice\ilo.wav" />
+    <Content Include="Resources\voice\insa.wav" />
+    <Content Include="Resources\voice\jaki.wav" />
+    <Content Include="Resources\voice\jan.wav" />
+    <Content Include="Resources\voice\jasima.wav" />
+    <Content Include="Resources\voice\jelo.wav" />
+    <Content Include="Resources\voice\jo.wav" />
+    <Content Include="Resources\voice\kala.wav" />
+    <Content Include="Resources\voice\kalama.wav" />
+    <Content Include="Resources\voice\kama.wav" />
+    <Content Include="Resources\voice\kasi.wav" />
+    <Content Include="Resources\voice\ken.wav" />
+    <Content Include="Resources\voice\kepeken.wav" />
+    <Content Include="Resources\voice\kijetesantakalu.wav" />
+    <Content Include="Resources\voice\kili.wav" />
+    <Content Include="Resources\voice\kin.wav" />
+    <Content Include="Resources\voice\kipisi.wav" />
+    <Content Include="Resources\voice\kiwen.wav" />
+    <Content Include="Resources\voice\ko.wav" />
+    <Content Include="Resources\voice\kokosila.wav" />
+    <Content Include="Resources\voice\kon.wav" />
+    <Content Include="Resources\voice\ku.wav" />
+    <Content Include="Resources\voice\kule.wav" />
+    <Content Include="Resources\voice\kulupu.wav" />
+    <Content Include="Resources\voice\kute.wav" />
+    <Content Include="Resources\voice\la.wav" />
+    <Content Include="Resources\voice\lanpan.wav" />
+    <Content Include="Resources\voice\lape.wav" />
+    <Content Include="Resources\voice\laso.wav" />
+    <Content Include="Resources\voice\lawa.wav" />
+    <Content Include="Resources\voice\leko.wav" />
+    <Content Include="Resources\voice\len.wav" />
+    <Content Include="Resources\voice\lete.wav" />
+    <Content Include="Resources\voice\li.wav" />
+    <Content Include="Resources\voice\lili.wav" />
+    <Content Include="Resources\voice\linja.wav" />
+    <Content Include="Resources\voice\lipu.wav" />
+    <Content Include="Resources\voice\loje.wav" />
+    <Content Include="Resources\voice\lon.wav" />
+    <Content Include="Resources\voice\luka.wav" />
+    <Content Include="Resources\voice\lukin.wav" />
+    <Content Include="Resources\voice\lupa.wav" />
+    <Content Include="Resources\voice\ma.wav" />
+    <Content Include="Resources\voice\mama.wav" />
+    <Content Include="Resources\voice\mani.wav" />
+    <Content Include="Resources\voice\meli.wav" />
+    <Content Include="Resources\voice\meso.wav" />
+    <Content Include="Resources\voice\mi.wav" />
+    <Content Include="Resources\voice\mije.wav" />
+    <Content Include="Resources\voice\misikeke.wav" />
+    <Content Include="Resources\voice\moku.wav" />
+    <Content Include="Resources\voice\moli.wav" />
+    <Content Include="Resources\voice\monsi.wav" />
+    <Content Include="Resources\voice\monsuta.wav" />
+    <Content Include="Resources\voice\mu.wav" />
+    <Content Include="Resources\voice\mun.wav" />
+    <Content Include="Resources\voice\musi.wav" />
+    <Content Include="Resources\voice\mute.wav" />
+    <Content Include="Resources\voice\n.wav" />
+    <Content Include="Resources\voice\namako.wav" />
+    <Content Include="Resources\voice\nanpa.wav" />
+    <Content Include="Resources\voice\nasa.wav" />
+    <Content Include="Resources\voice\nasin.wav" />
+    <Content Include="Resources\voice\nena.wav" />
+    <Content Include="Resources\voice\ni.wav" />
+    <Content Include="Resources\voice\nimi.wav" />
+    <Content Include="Resources\voice\noka.wav" />
+    <Content Include="Resources\voice\o.wav" />
+    <Content Include="Resources\voice\oko.wav" />
+    <Content Include="Resources\voice\olin.wav" />
+    <Content Include="Resources\voice\ona.wav" />
+    <Content Include="Resources\voice\open.wav" />
+    <Content Include="Resources\voice\pakala.wav" />
+    <Content Include="Resources\voice\pali.wav" />
+    <Content Include="Resources\voice\palisa.wav" />
+    <Content Include="Resources\voice\pan.wav" />
+    <Content Include="Resources\voice\pana.wav" />
+    <Content Include="Resources\voice\pi.wav" />
+    <Content Include="Resources\voice\pilin.wav" />
+    <Content Include="Resources\voice\pimeja.wav" />
+    <Content Include="Resources\voice\pini.wav" />
+    <Content Include="Resources\voice\pipi.wav" />
+    <Content Include="Resources\voice\poka.wav" />
+    <Content Include="Resources\voice\poki.wav" />
+    <Content Include="Resources\voice\pona.wav" />
+    <Content Include="Resources\voice\pu.wav" />
+    <Content Include="Resources\voice\sama.wav" />
+    <Content Include="Resources\voice\seli.wav" />
+    <Content Include="Resources\voice\selo.wav" />
+    <Content Include="Resources\voice\seme.wav" />
+    <Content Include="Resources\voice\sewi.wav" />
+    <Content Include="Resources\voice\sijelo.wav" />
+    <Content Include="Resources\voice\sike.wav" />
+    <Content Include="Resources\voice\sin.wav" />
+    <Content Include="Resources\voice\sina.wav" />
+    <Content Include="Resources\voice\sinpin.wav" />
+    <Content Include="Resources\voice\sitelen.wav" />
+    <Content Include="Resources\voice\soko.wav" />
+    <Content Include="Resources\voice\sona.wav" />
+    <Content Include="Resources\voice\soweli.wav" />
+    <Content Include="Resources\voice\suli.wav" />
+    <Content Include="Resources\voice\suno.wav" />
+    <Content Include="Resources\voice\supa.wav" />
+    <Content Include="Resources\voice\suwi.wav" />
+    <Content Include="Resources\voice\tan.wav" />
+    <Content Include="Resources\voice\taso.wav" />
+    <Content Include="Resources\voice\tawa.wav" />
+    <Content Include="Resources\voice\telo.wav" />
+    <Content Include="Resources\voice\tenpo.wav" />
+    <Content Include="Resources\voice\toki.wav" />
+    <Content Include="Resources\voice\tomo.wav" />
+    <Content Include="Resources\voice\tonsi.wav" />
+    <Content Include="Resources\voice\tu.wav" />
+    <Content Include="Resources\voice\unpa.wav" />
+    <Content Include="Resources\voice\uta.wav" />
+    <Content Include="Resources\voice\utala.wav" />
+    <Content Include="Resources\voice\walo.wav" />
+    <Content Include="Resources\voice\wan.wav" />
+    <Content Include="Resources\voice\waso.wav" />
+    <Content Include="Resources\voice\wawa.wav" />
+    <Content Include="Resources\voice\weka.wav" />
+    <Content Include="Resources\voice\wile.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

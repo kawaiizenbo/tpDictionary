@@ -1,4 +1,5 @@
 # tpDictionary  
+## we moved we moved we moved https://git.kawaiizenbo.me/kawaiizenbo/tpDictionary
 Toki Pona Dictionary for Windows Mobile  
 Compatible with Windows Mobile 5/6.0/6.1/6.5
 Made with Visual Studio 2008 and .NET Compact Framework 2.0
